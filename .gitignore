@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+jspm_packages/
+.pnp/
+.pnp.*
+
+# Environment variables & secrets (NEVER commit these)
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Logs & runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build & distribution outputs
+dist/
+build/
+out/
+.next/
+next-env.d.ts
+
+# Testing & coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Cache & temporary files
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_esm/
+.rts2_cache_umd/
+.tsbuildinfo
+*.tgz
+*.tsbuildinfo
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
